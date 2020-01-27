@@ -13,12 +13,12 @@ html, body, #root{
 }
 
 body{
-  background-color: var(--color-base);
+  background-color: var(--color-bgc);
   -webkit-font-smothing: antialiased;
 }
 
 body, input, button{
-  font-family: Roboto, sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 a{
