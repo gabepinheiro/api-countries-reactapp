@@ -5,6 +5,8 @@ import GlobalStyle from './styles/global';
 
 import Header from './components/Header/'
 import { Main } from './components/Main/'
+import Form from './components/Form/'
+import Input from './components/Input/'
 
 
 function App() {
@@ -14,7 +16,9 @@ function App() {
     <Header />
 
     <Main>
-      <h2>Hello!</h2>
+      <Form>
+        <Input placeholder="Search for a country" />
+      </Form>
     </Main>
     </>
   );

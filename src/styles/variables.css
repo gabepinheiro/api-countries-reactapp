@@ -2,5 +2,6 @@
   --color-base: #fff;
   --color-bgc: hsl(0, 0%, 98%);
   --color-dark: hsl(200, 15%, 8%); 
+  --color-dark-gray: hsl(0, 0%, 52%);
   --box-shadow: 0px 0px 8px -2px  #a8a8a8;
 }
