@@ -2,9 +2,9 @@ import React from 'react'
 
 import * as S from './styled'
 
-function Input( { placeholder, ...props } ){
+function Input( props ){
   return (
-    <S.Input placeholder={placeholder} {...props} />
+    <S.Input  {...props} />
   )
 }
 
