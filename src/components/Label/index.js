@@ -11,14 +11,18 @@ const Label = styled.label`
   border-radius: 5px;
   padding: 0 30px;
   display:block;
+ 
   
   svg{
     color: var(--color-dark-gray);
     margin-right: 20px;
   }
 
-  ${Input}:focus & {
+  /* ${Input}:focus & {
     border: 1px solid var(--color-dark-gray);
+  } */
+  :focus-within{
+    border: 0.5px solid var(--color-dark-gray);
   }
 `;
 
