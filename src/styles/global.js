@@ -28,6 +28,12 @@ a{
 ul, ol, li{
   list-style: none;
 }
+
+img{
+  display:block;
+  max-width: 100%;
+}
+
 `;
 
 export default GlobalStyle;
